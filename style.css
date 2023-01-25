@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=Montserrat&display=swap');
+
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary-font: 'Montserrat', sans-serif;
+  --secondary-font: 'DM Sans', sans-serif;
+}
+
+
+body {
+  background: linear-gradient(287.56deg, #C2E9FB 0%, #A1C4FD 100%);
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background: white;
+  width: 428px;
+  height: 273.72px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 6px;
+  padding: 48px 64px;
+}
+
+h1, h2 {
+  margin-bottom: 16px;
+  font-family: var(--primary-font);
+  font-size: 24px;
+  color: #34355B;
+}
+
+p {
+  margin-bottom: 48px;
+  font-family: var(--secondary-font);
+  font-size: 16px;
+  color: rgba(52, 53, 91, 0.8);
+}
+
+form {
+  display: flex;
+  justify-content: center;
+}
+
+input, button {
+  height: 53px;
+  padding: 16px;
+  border: none;
+  font-family: var(--secondary-font);
+}
+
+input {
+  background: #DCE2E9;
+  border-radius: 4px 0px 0px 4px;
+  width: 50px;
+  height: 53px;
+  font-size: 16px;
+  color: #34355B;
+  font-weight: 700;
+
+}
+
+button {
+  background: #7879F1;
+  border-radius: 0px 4px 4px 0px;
+  color: white;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+#tenteNovamente {
+  background: #7879F1;
+  border-radius: 4px;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover, 
+#tenteNovamente:hover {
+  background: #6a6af1;
+
+}
+
+.hide {
+  display: none;
+}
